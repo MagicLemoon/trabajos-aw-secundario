@@ -1,0 +1,50 @@
+.contenedor{
+    background-color: rgb(181, 53, 53);   ;}
+
+    
+    .transition {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .transition:hover {
+        transform: scale(1.05);
+    }
+
+    .fade-in {
+        animation: fade-in 2s;
+    }
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .parallax_index {
+ 
+        background-image: url("./imagenes/fpez.gif");
+    
+     
+        height: 500px;
+    
+     
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .parallax {
+      
+        background-image: url("./imagenes/hollow.jpeg");
+  
+       
+        height: 500px; 
+  
+        
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
